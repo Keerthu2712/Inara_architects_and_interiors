@@ -29,7 +29,7 @@ function Header() {
           <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
           <li><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
           <li><Link to="/services" onClick={() => setMenuOpen(false)}>Our Services</Link></li>
-          <li><Link to="/ourworks" onClick={() => setMenuOpen(false)}>Portfolio</Link></li>
+          <li><Link to="/ourworks" onClick={() => setMenuOpen(false)}>Our Works</Link></li>
           <li><Link to="/team" onClick={() => setMenuOpen(false)}>Our Team</Link></li>
           <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
 

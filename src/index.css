@@ -574,3 +574,493 @@
 
 /* end of footer cta styles */
 
+/* ============================
+   ABOUT PAGE STYLES*/
+
+/* About Page */
+.about-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* 1️⃣ Intro Banner */
+.intro-banner {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+/* 2️⃣ Company Story */
+.company-story {
+  text-align: center;
+  padding: 60px 20px;
+}
+.company-story h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.company-story p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* 3️⃣ Vision & Mission */
+.vision-mission {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+.about-card {
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+}
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.card-desc {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* 4️⃣ Core Values */
+.core-values {
+  padding: 60px 20px;
+  text-align: center;
+}
+.core-values h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.value-item {
+  font-size: 1.2rem;
+  background: #eef2f7;
+  padding: 20px 25px;
+  border-radius: 8px;
+}
+
+/* 5️⃣ Team Preview */
+.team-preview {
+  padding: 60px 20px;
+  text-align: center;
+}
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.team-card {
+  max-width: 200px;
+  text-align: center;
+}
+.team-img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.team-role {
+  color: #666;
+}
+.team-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0077cc;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.team-btn:hover {
+  background: #005fa3;
+}
+/* end of about page styles */
+
+/* Our Team Page */
+.ourteam-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Team Grid Section */
+.team-grid-section {
+  text-align: center;
+  padding: 60px 0;
+}
+.team-grid-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+/* Team Card */
+.team-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.team-card:hover {
+  transform: translateY(-5px);
+}
+.team-img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.team-role {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Team Culture Section */
+.team-culture {
+  text-align: center;
+  padding: 60px 20px;
+}
+.team-culture h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.team-culture p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+/* end of our team page styles */
+
+/* Our Works Page */
+.ourworks-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Filter Section */
+.filter-section {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+.filter-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  background: #0077cc;
+  color: white;
+}
+
+/* Project Grid */
+.project-grid-section {
+  padding: 40px 0;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Project Card */
+.project-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.project-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+.project-desc {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+.modal-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.modal-close {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.modal-close:hover {
+  background: #005fa3;
+}
+/* end of our works page styles */
+
+/* Contact Page */
+.contact-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Contact Info Section */
+.contact-info-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 60px 0;
+  text-align: center;
+}
+.contact-info-card {
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.contact-info-card:hover {
+  transform: translateY(-5px);
+}
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.contact-info-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.contact-info-card p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+.contact-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.contact-form button {
+  padding: 12px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact-form button:hover {
+  background: #005fa3;
+}
+
+/* Google Map Section */
+.contact-map {
+  padding: 60px 0;
+  text-align: center;
+}
+.contact-map h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.contact-map iframe {
+  border-radius: 10px;
+}
+/* end of contact page styles */
+
+/* Services Page */
+.services-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header */
+.services-header {
+  text-align: center;
+  padding: 60px 20px 40px 20px;
+}
+.services-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.services-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}
+.service-card {
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+}
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.service-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.service-desc {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* CTA Button */
+.services-cta {
+  text-align: center;
+  padding: 40px 0 60px 0;
+}
+.cta-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background: #005fa3;
+}
+/* end of services page styles */
+
