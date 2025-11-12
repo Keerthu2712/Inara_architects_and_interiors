@@ -89,7 +89,7 @@ const Contact = () => {
         <h2>Our Location</h2>
         <iframe
           title="office-location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123456789!2d-73.985656!3d40.748817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sExample+Location!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2351318221417!2d80.13460997484228!3d13.020693187299223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261006b5b530b%3A0xfc62fb63164d6cdb!2sINARA%20Architects%20and%20Interiors!5e0!3m2!1sen!2sin!4v1762969700054!5m2!1sen!2sin"
           width="100%"
           height="400"
           style={{ border: 0 }}

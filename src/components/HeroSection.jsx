@@ -16,9 +16,9 @@ function HeroSection() {
 
       {/* Overlay Content */}
       <div className="hero-overlay">
-        <h1 className="hero-title">Designing Dreams. Building Realities.</h1>
+        <h1 className="hero-title">INARA ARCHITECTS AND INTERIORS</h1>
         <p className="hero-subtitle">
-          Bringing modern architecture and interior excellence to life.
+          Illuminating Space. Inspiring Soul.
         </p>
         <Link to="/ourworks" className="hero-button">
           Explore Our Works

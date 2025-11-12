@@ -479,100 +479,6 @@
 }
 /* end of testimonials section styles */
 
-/* ============================
-   FOOTER CTA STYLES*/
-
-/* --- FOOTER BASE --- */
-.footer {
-  background-color: #0a0a0a;
-  color: #ffffff;
-  padding: 60px 80px 20px;
-  font-family: "Poppins", sans-serif;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.footer-section {
-  flex: 1;
-  min-width: 250px;
-}
-
-.footer-section h3,
-.footer-section h4 {
-  color: #ffffff;
-  margin-bottom: 15px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-.footer-section p {
-  font-size: 14px;
-  line-height: 1.8;
-  color: #ccc;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 8px;
-}
-
-.footer-section a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-section a:hover {
-  color: #004aad; /* Accent blue */
-}
-
-/* --- BOTTOM LINE --- */
-.footer-bottom {
-  text-align: center;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.footer-bottom p {
-  font-size: 14px;
-  color: #aaa;
-}
-
-/* --- RESPONSIVE DESIGN --- */
-@media (max-width: 768px) {
-  .footer {
-    padding: 40px 20px 10px;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-section {
-    min-width: unset;
-  }
-
-  .footer-section h4 {
-    margin-top: 20px;
-  }
-}
-
-
-
-
-/* end of footer cta styles */
 
 /* ============================
    ABOUT PAGE STYLES*/
@@ -1063,4 +969,102 @@
   background: #005fa3;
 }
 /* end of services page styles */
+
+/* ============================
+   FOOTER STYLES --- */
+
+.footer {
+  background: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 50px 20px 20px 20px;
+}
+
+/* 3 Column Grid */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-col p,
+.footer-col a {
+  font-size: 0.95rem;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+/* Contact Info Icons */
+.footer-col p svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Contact Info Column */
+.footer-col.contact-info {
+  display: flex;
+  flex-direction: column; /* stack all items vertically */
+  gap: 8px;
+}
+
+/* Each contact line: icon + text side by side */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;           /* space between icon and text */
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+/* Social Media Icons under contact info */
+.footer-socials-inline {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.footer-socials-inline a {
+  color: #fff;
+  font-size: 1.6rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials-inline a:hover {
+  color: #00cc66;
+}
+
+
+/* Footer Bottom Text */
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+/* end of footer styles */
 
