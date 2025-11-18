@@ -72,10 +72,10 @@ const Contact = () => {
 
       {/* Contact Info Cards */}
       <section className="contact-info-section">
-        <ContactInfoCard icon="📍" title="Address" info="123 Main Street, City, Country" />
-        <ContactInfoCard icon="📞" title="Phone" info="+91 98765 43210" />
-        <ContactInfoCard icon="✉️" title="Email" info="info@architects.com" />
-        <ContactInfoCard icon="⏰" title="Hours" info="Mon - Fri: 9am - 6pm" />
+        <ContactInfoCard icon="📍" title="Address" info="24, Mangadu Main Road, Moulivakkam, Chennai, India, 600125" />
+        <ContactInfoCard icon="📞" title="Phone" info="+91 9840874319" />
+        <ContactInfoCard icon="✉️" title="Email" info="inaraarchitectsandinteriors@gmail.com" />
+        <ContactInfoCard icon="⏰" title="Hours" info="Mon - Fri: 9.30am - 5.30pm" />
       </section>
 
       {/* Contact Form */}
