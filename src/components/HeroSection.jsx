@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import heroImage from "C:/Users/Admin/Desktop/inara_architects_and_interiors/src/assests/images/img.jpg";
+import heroImage from "../../src/assests/images/hero-img.jpg";
 
 
 function HeroSection() {
@@ -16,7 +16,11 @@ function HeroSection() {
 
       {/* Overlay Content */}
       <div className="hero-overlay">
-        <h1 className="hero-title">INARA ARCHITECTS AND INTERIORS</h1>
+        <h1 class="hero-title">
+        <span class="brand-name">INARA</span>
+        <span class="brand-sub">ARCHITECTS AND INTERIORS</span>
+        </h1>
+
         <p className="hero-subtitle">
           Illuminating Space. Inspiring Soul.
         </p>

@@ -41,9 +41,9 @@ const About = () => {
       <section className="company-story">
         <h2>Our Story</h2>
         <p>
-          We started in 2010 with a passion for creating spaces that inspire.
-          Our team of architects and designers delivers innovative and functional
-          designs that stand the test of time.
+          Founded on June 10, 2024, Inara Architects began with a clear vision — to design meaningful spaces shaped by light, balance, and purpose. 
+          From a small start, we steadily grew into a practice handling diverse projects in residential, interior, commercial, and hospital design, taking responsibility for both concept development and execution. 
+          Each project strengthened our commitment to precision, creativity, and client trust. Today, Inara Architects continues to evolve as a young, dedicated firm — creating spaces that inspire, function beautifully, and stand the test of time.
         </p>
       </section>
 
@@ -52,12 +52,12 @@ const About = () => {
         <Card
           icon="🌟"
           title="Vision"
-          description="To redefine modern architecture with sustainable and innovative designs."
+          description="To create environmentally responsible designs that harmonize with nature and foster a strong, meaningful connection between people and the spaces they inhabit."
         />
         <Card
           icon="🎯"
           title="Mission"
-          description="To deliver exceptional design solutions that reflect our client’s dreams."
+          description="To create functional, sustainable, and human-centred spaces through thoughtful design and precise execution."
         />
       </section>
 

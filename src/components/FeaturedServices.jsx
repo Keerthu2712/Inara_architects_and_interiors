@@ -1,7 +1,7 @@
 import React from "react";
 
-import designIcon from "../../src/assests/images/img.jpg";
-import architectureIcon from "../../src/assests/images/img.jpg";
+import designIcon from "../../src/assests/images/feat-int.jpg";
+import architectureIcon from "../../src/assests/images/hero-img.jpg";
 import renovationIcon from "../../src/assests/images/img.jpg";
 import landscapeIcon from "../../src/assests/images/img.jpg";
 
@@ -20,11 +20,16 @@ function FeaturedServices() {
 
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card" key={index}>
-            <img src={service.icon} alt={service.title} className="service-icon" />
-            <h3>{service.title}</h3>
-            <p>{service.text}</p>
+          <div className="service-card">
+            <img src={service.icon} alt={service.title} className="service-bg" />
+
+            <div className="service-overlay">
+              <h3>{service.title}</h3>
+              <p>{service.text}</p>
+            </div>
           </div>
+
+
         ))}
       </div>
     </section>

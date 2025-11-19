@@ -14,7 +14,10 @@ function Header() {
         <Link to="/">
           <img src={logo} alt="Inara Architects & Interiors" />
         </Link>
+        <div className="company-name">INARA ARCHITECTS AND INTERIORS</div>
       </div>
+
+      
 
       {/* Hamburger Icon */}
       <div className="menu-icon" onClick={toggleMenu}>

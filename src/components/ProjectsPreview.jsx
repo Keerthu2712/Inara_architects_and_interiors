@@ -1,15 +1,15 @@
 import React from "react";
 
-import project1 from "../../src/assests/images/img.jpg";
-import project2 from "../../src/assests/images/img.jpg";
-import project3 from "../../src/assests/images/img.jpg";
+import project1 from "../../src/assests/images/recent1.jpg";
+import project2 from "../../src/assests/images/recent2.png";
+import project3 from "../../src/assests/images/recent3.jpg";
 import { Link } from "react-router-dom";
 
 function ProjectPreview() {
   const projects = [
-    { img: project1, title: "Modern Living Room" },
-    { img: project2, title: "Elegant Office Space" },
-    { img: project3, title: "Luxury Villa Design" },
+    { img: project1, title: "Residence At Mayiladuthurai" },
+    { img: project2, title: "Office Interior for SM Developers" },
+    { img: project3, title: "Residence At Chinnasalem" },
   ];
 
   return (

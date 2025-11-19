@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../src/assests/images/img.jpg";
+import aboutImg from "../../src/assests/images/aboutfirm.png";
 
 
 const AboutPreview = () => {
@@ -12,9 +12,10 @@ const AboutPreview = () => {
         <div className="about-text">
           <h2>About Our Firm</h2>
           <p>
-            We are a team of passionate architects and interior designers
-            dedicated to creating spaces that are both functional and beautiful.
-            Our mission is to transform your vision into reality.
+            To us, architecture is an act of illumination — not just of space, but of spirit.
+            Every project is a dialogue between light and material, human and nature, idea and impact. 
+            At Inara Architects, we design spaces that radiate purpose, clarity, and emotion, leaving an impression that lingers beyond walls.
+
           </p>
           <button onClick={() => (window.location.href = "/about")}>
             Read More

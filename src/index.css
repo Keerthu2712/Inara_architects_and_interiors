@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #8e725f;
   padding: 15px 60px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -26,6 +26,19 @@
   transform: scale(1.05);
 }
 
+.company-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #141414; /* change color as needed */
+  margin: 10px 0 0 15px;
+  letter-spacing: 2px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
 /* --- NAVIGATION --- */
 .header-nav ul {
   list-style: none;
@@ -37,7 +50,7 @@
 
 .header-nav a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 600;
   font-size: 16px;
   transition: color 0.3s ease, border-bottom 0.3s ease;
@@ -45,8 +58,8 @@
 }
 
 .header-nav a:hover {
-  color: #004aad;
-  border-bottom: 2px solid #004aad;
+  color: #c4cac3;
+  border-bottom: 2px solid #c4cac3;
 }
 
 /* --- HAMBURGER ICON --- */
@@ -147,7 +160,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* ensures image fills nicely */
-  filter: brightness(60%); /* dark overlay look */
+  filter: brightness(40%); /* dark overlay look */
 }
 
 /* Overlay Content */
@@ -159,12 +172,29 @@
 }
 
 .hero-title {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+.brand-name {
+  font-size: 150px;      /* Adjust size as you like */
+  font-weight: 800;
+  letter-spacing: 10px; /* Creates the spaced look only visually */
+  display: block;
+}
+
+.brand-sub {
+  font-size: 37px;      /* Smaller text */
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: -40px;    /* Pull text closer to INARA */
+  display: block;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .hero-subtitle {
   font-size: 1.2rem;
@@ -192,14 +222,17 @@
   border-color: #fbbf24;
 }
 
+
+
 /* end of hero section styles */
 
 /* ============================
    ABOUT PREVIEW SECTION STYLES*/
 
 .about-preview-section {
-  background-color: #fff;
+  background-color: #fdf9f5;
   padding: 4rem 2rem;
+  
 }
 
 .about-preview-section .about-text h2 {
@@ -216,7 +249,7 @@
 }
 
 .about-preview-section .about-text button {
-  background-color: #2563eb; /* blue-600 */
+  background-color: #8e725f; /* blue-600 */
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -226,13 +259,13 @@
 }
 
 .about-preview-section .about-text button:hover {
-  background-color: #1e40af; /* blue-700 */
+  background-color: #0c4f4e; /* blue-700 */
 }
 
 .about-preview-section img {
   width: 100%;
   border-radius: 1rem;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* end of about preview section styles */
@@ -240,8 +273,9 @@
 /* Featured Services Section */
 .featured-services {
   padding: 80px 10%;
-  background-color: #fafafa;
+  background-color: #f4efea;
   text-align: center;
+  ;
 }
 
 /* Section Titles */
@@ -259,61 +293,91 @@
 }
 
 /* Services Grid Layout */
+/* Featured Services Grid */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
 }
 
-/* Individual Card */
+/* Full Image Card */
 .service-card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 30px 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  position: relative;
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  
 }
 
+.service-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.service-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 15px;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.service-card {
+  position: relative;
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect (optional premium look) */
 .service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.2);
 }
 
-/* Icon */
-.service-icon {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
+/* Transparent Overlay Box */
+.service-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6); /* adjust transparency if needed */
+  border-radius: 10px;
+  color: #fff;
+  backdrop-filter: blur(3px); /* premium glass effect */
 }
 
-/* Card Title and Text */
-.service-card h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 10px;
+/* Overlay Title */
+.service-overlay h3 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.service-card p {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.5;
+/* Overlay Text */
+.service-overlay p {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .featured-services {
-    padding: 60px 5%;
-  }
-
-  .section-title {
-    font-size: 2rem;
-  }
-
-  .service-card {
-    padding: 25px 15px;
-  }
-}
 /* end of featured services section styles */
 
 /* ============================
