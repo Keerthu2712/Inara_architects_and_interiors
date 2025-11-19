@@ -10,12 +10,15 @@ import Services from "./pages/Services";
 
 import Team from "./pages/Teams";
 import Contact from "./pages/Contact";
+import FestivalPopup from "./components/FestivalPopup";
 
 
 function App() {
   return (
     <>
+      <FestivalPopup />
       <Header />
+    
 
       <main>
         <Routes>
