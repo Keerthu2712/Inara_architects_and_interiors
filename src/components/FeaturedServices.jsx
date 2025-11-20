@@ -1,6 +1,6 @@
 import React from "react";
 
-import designIcon from "../../src/assests/images/feat-int.jpg";
+import designIcon from "../../src/assests/images/recent2.png";
 import architectureIcon from "../../src/assests/images/hero-img.jpg";
 import renovationIcon from "../../src/assests/images/img.jpg";
 import landscapeIcon from "../../src/assests/images/img.jpg";
@@ -28,8 +28,7 @@ function FeaturedServices() {
               <p>{service.text}</p>
             </div>
           </div>
-
-
+          
         ))}
       </div>
     </section>

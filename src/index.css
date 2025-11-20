@@ -32,6 +32,7 @@
   color: #141414; /* change color as needed */
   margin: 10px 0 0 15px;
   letter-spacing: 2px;
+  font-family: "Lemon Milk", sans-serif;
 }
 
 .header-logo {
@@ -58,7 +59,7 @@
 }
 
 .header-nav a:hover {
-  color: #c4cac3;
+  color: #333;
   border-bottom: 2px solid #c4cac3;
 }
 
@@ -182,6 +183,7 @@
   font-weight: 800;
   letter-spacing: 10px; /* Creates the spaced look only visually */
   display: block;
+  font-family: "Lemon Milk", sans-serif;
 }
 
 .brand-sub {
@@ -193,6 +195,7 @@
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Lemon Milk", sans-serif;
 }
 
 
@@ -201,13 +204,15 @@
   font-weight: 300;
   margin-bottom: 2rem;
   color: #e0e0e0;
+  font-family: "Lemon Milk", sans-serif;
+  font-style: italic;
 }
 
 /* Button Styling */
 .hero-button {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #1f2937; /* dark slate gray */
+  background-color: #8e725f; /* dark slate gray */
   color: #fff;
   text-decoration: none;
   border-radius: 30px;
@@ -217,9 +222,9 @@
 }
 
 .hero-button:hover {
-  background-color: #fbbf24; /* warm gold */
-  color: #1f2937;
-  border-color: #fbbf24;
+  background-color: #444; /* warm gold */
+  color: #fff;
+  border-color: #444;
 }
 
 
@@ -259,7 +264,7 @@
 }
 
 .about-preview-section .about-text button:hover {
-  background-color: #0c4f4e; /* blue-700 */
+  background-color: #444; /* blue-700 */
 }
 
 .about-preview-section img {
@@ -385,7 +390,7 @@
 
 .project-preview {
   padding: 80px 10%;
-  background-color: #fff;
+  background-color: #fdf9f5;
   text-align: center;
 }
 
@@ -449,7 +454,7 @@
 }
 
 .view-all-btn {
-  background-color: #222;
+  background-color: #8e725f;
   color: #fff;
   padding: 12px 25px;
   border-radius: 25px;
@@ -467,7 +472,7 @@
    TESTIMONIALS SECTION STYLES*/
 
 .testimonials {
-  background-color: #f9f9f9;
+  background-color: #f4efea;
   padding: 80px 10%;
   text-align: center;
 }
@@ -549,8 +554,9 @@
 
 /* About Page */
 .about-page {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lemon Milk', sans-serif;
   color: #333;
+  background-color: #fdf9f5;
 }
 
 /* 1️⃣ Intro Banner */
@@ -594,7 +600,7 @@
   flex-wrap: wrap;
 }
 .about-card {
-  background: #f9f9f9;
+  background: #f4efea;
   padding: 30px 20px;
   border-radius: 10px;
   text-align: center;
@@ -630,7 +636,7 @@
 }
 .value-item {
   font-size: 1.2rem;
-  background: #eef2f7;
+  background: #f4efea;
   padding: 20px 25px;
   border-radius: 8px;
 }
@@ -638,7 +644,11 @@
 /* 5️⃣ Team Preview */
 .team-preview {
   padding: 60px 20px;
-  text-align: center;
+  text-align: center; 
+}
+.team-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 .team-grid {
   display: flex;
@@ -666,22 +676,23 @@
 .team-btn {
   display: inline-block;
   padding: 12px 25px;
-  background: #0077cc;
+  background: #8e725f;
   color: white;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
 }
 .team-btn:hover {
-  background: #005fa3;
+  background: #333;
 }
 /* end of about page styles */
 
 /* Our Team Page */
 .ourteam-page {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lemon Milk', sans-serif;
   color: #333;
   padding: 0 20px;
+  background-color: #fdf9f5;
 }
 
 /* Team Grid Section */
@@ -703,7 +714,7 @@
 
 /* Team Card */
 .team-card {
-  background: #f9f9f9;
+  background: #f4efea;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -763,6 +774,7 @@
   font-family: 'Arial', sans-serif;
   color: #333;
   padding: 0 20px;
+  background-color: #fdf9f5;
 }
 
 /* Filter Section */
@@ -773,7 +785,7 @@
 .filter-btn {
   padding: 10px 20px;
   margin: 5px;
-  background: #f0f0f0;
+  background: #f4efea;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -782,7 +794,7 @@
 }
 .filter-btn:hover,
 .filter-btn.active {
-  background: #0077cc;
+  background: #8e725f;
   color: white;
 }
 
@@ -855,7 +867,7 @@
 }
 .modal-close {
   padding: 10px 20px;
-  background: #0077cc;
+  background: #8e725f;
   color: white;
   border: none;
   border-radius: 6px;
@@ -863,7 +875,7 @@
   margin-top: 15px;
 }
 .modal-close:hover {
-  background: #005fa3;
+  background: #444;
 }
 /* end of our works page styles */
 
@@ -872,6 +884,7 @@
   font-family: 'Arial', sans-serif;
   color: #333;
   padding: 0 20px;
+  background-color: #fdf9f5;
 }
 
 /* Contact Info Section */
@@ -883,7 +896,7 @@
   text-align: center;
 }
 .contact-info-card {
-  background: #f9f9f9;
+  background: #f4efea;
   padding: 30px 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
@@ -900,7 +913,7 @@
   margin-bottom: 5px;
 }
 .contact-info-card p {
-  color: #666;
+  color: #333;
   font-size: 1rem;
 }
 
@@ -908,6 +921,7 @@
 .contact-form-section {
   text-align: center;
   padding: 60px 20px;
+  
 }
 .contact-form-section h2 {
   font-size: 2rem;
@@ -935,7 +949,7 @@
 }
 .contact-form button {
   padding: 12px;
-  background: #0077cc;
+  background: #8e725f;
   color: white;
   border: none;
   border-radius: 6px;
@@ -944,7 +958,7 @@
   transition: background 0.3s ease;
 }
 .contact-form button:hover {
-  background: #005fa3;
+  background: #444;
 }
 
 /* Google Map Section */
