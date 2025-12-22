@@ -16,9 +16,9 @@ function HeroSection() {
 
       {/* Overlay Content */}
       <div className="hero-overlay">
-        <h1 class="hero-title">
-        <span class="brand-name">INARA</span>
-        <span class="brand-sub">ARCHITECTS AND INTERIORS</span>
+        <h1 className="hero-title">
+        <span className="brand-name">INARA</span>
+        <span className="brand-sub">ARCHITECTS AND INTERIORS</span>
         </h1>
 
         <p className="hero-subtitle">

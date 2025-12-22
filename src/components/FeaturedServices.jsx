@@ -2,15 +2,15 @@ import React from "react";
 
 import designIcon from "../../src/assests/images/Residential/Interior/Santhanam Residence @ Maduravoyal/Enscape_2023-09-13-22-25-08 (1).png";
 import architectureIcon from "../../src/assests/images/hero-img.jpg";
-import renovationIcon from "../../src/assests/images/img.jpg";
+import renovationIcon from "../../src/assests/images/Renovation/2.jpeg";
 import landscapeIcon from "../../src/assests/images/KOTTURPURAM PARK REDEVELOPMENT/2_2 - Photo.jpg";
 
 function FeaturedServices() {
   const services = [
     { icon: designIcon, title: "Interior Design", text: "Creative and functional interiors that reflect your style." },
     { icon: architectureIcon, title: "Architecture", text: "Innovative and sustainable architectural designs." },
-    { icon: renovationIcon, title: "Renovation", text: "Transforming spaces while preserving their essence." },
     { icon: landscapeIcon, title: "Landscape Design", text: "Designing outdoor spaces that blend beauty and nature." },
+    { icon: renovationIcon, title: "Renovation", text: "Transforming spaces while preserving their essence." },
   ];
 
   return (
@@ -20,7 +20,7 @@ function FeaturedServices() {
 
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card">
+          <div className="service-card" key={index}>
             <img src={service.icon} alt={service.title} className="service-bg" />
 
             <div className="service-overlay">

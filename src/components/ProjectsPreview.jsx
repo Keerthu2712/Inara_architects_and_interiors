@@ -31,7 +31,7 @@ function ProjectPreview() {
       </div>
 
       <div className="project-button">
-        <Link to="/ourworks" className="view-all-btn">
+        <Link to="/Portfolio" className="view-all-btn">
           View All Projects
         </Link>
       </div>
