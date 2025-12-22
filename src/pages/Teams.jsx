@@ -31,7 +31,7 @@ const OurTeam = () => {
   ];
 
   return (
-    <div className="ourteam-page">
+    <div className="ourteam-page pop-in">
 
       {/* Team Grid */}
       <section className="team-grid-section">

@@ -41,7 +41,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="services-page">
+    <div className="services-page zoom-out">
       <section className="services-header">
         <h2>Our Services</h2>
         <p>
@@ -62,7 +62,7 @@ const Services = () => {
 
       <section className="services-cta">
         <button
-          onClick={() => navigate("/ourworks")}
+          onClick={() => navigate("/portfolio")}
           className="cta-button"
         >
           View Our Works

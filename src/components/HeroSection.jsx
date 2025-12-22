@@ -4,7 +4,7 @@ import heroImage from "../../src/assests/images/hero-img.jpg";
 
 function HeroSection() {
   return (
-    <section className="hero-section">
+    <section className="hero-section fade-in">
       {/* Background Image */}
         <div className="hero-background">
         <img
@@ -24,7 +24,7 @@ function HeroSection() {
         <p className="hero-subtitle">
           Illuminating Space. Inspiring Soul.
         </p>
-        <Link to="/ourworks" className="hero-button">
+        <Link to="/Portfolio" className="hero-button">
           Explore Our Works
         </Link>
       </div>

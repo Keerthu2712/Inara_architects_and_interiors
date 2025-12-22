@@ -7,12 +7,15 @@ import Testimonials from "../components/Testimonials";
 
 function Home() {
   return (
-    <div className="home">
+    
+
+    <div className="home fade-in">
       <HeroSection />
       <AboutPreview />
       <FeaturedServices />
       <ProjectsPreview />
       <Testimonials />
+      
       
     </div>
   );

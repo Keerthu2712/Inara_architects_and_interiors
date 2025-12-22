@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 
 // Contact info component
 const ContactInfoCard = ({ icon, title, info }) => (
@@ -11,64 +10,45 @@ const ContactInfoCard = ({ icon, title, info }) => (
 
 // Contact form component
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Message sent! (This is just a demo)");
-    setFormData({ name: "", email: "", phone: "", message: "" });
-  };
-
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <form
+      className="contact-form"
+      action="https://formsubmit.co/inaraarchitectsandinteriors@gmail.com"
+      method="POST"
+    >
+      {/* Disable captcha */}
+      <input type="hidden" name="_captcha" value="false" />
+
+      {/* Email subject */}
       <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        value={formData.name}
-        onChange={handleChange}
-        required
+        type="hidden"
+        name="_subject"
+        value="New Contact Enquiry from Website"
       />
+
+      {/* Success redirect (optional) */}
       <input
-        type="email"
-        name="email"
-        placeholder="Your Email"
-        value={formData.email}
-        onChange={handleChange}
-        required
+        type="hidden"
+        name="_next"
+        value="https://yourusername.github.io/your-repo-name/#/contact"
       />
-      <input
-        type="text"
-        name="phone"
-        placeholder="Your Phone"
-        value={formData.phone}
-        onChange={handleChange}
-      />
-      <textarea
-        name="message"
-        placeholder="Your Message"
-        value={formData.message}
-        onChange={handleChange}
-        required
-      />
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Your Phone" />
+      <textarea name="message" placeholder="Your Message" required />
+
       <button type="submit">Send Message</button>
+
+
     </form>
   );
 };
 
+
 const Contact = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page zoom-in">
 
       {/* Contact Info Cards */}
       <section className="contact-info-section">

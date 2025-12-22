@@ -1,9 +1,9 @@
 import React from "react";
 
-import designIcon from "../../src/assests/images/recent2.png";
+import designIcon from "../../src/assests/images/Residential/Interior/Santhanam Residence @ Maduravoyal/Enscape_2023-09-13-22-25-08 (1).png";
 import architectureIcon from "../../src/assests/images/hero-img.jpg";
 import renovationIcon from "../../src/assests/images/img.jpg";
-import landscapeIcon from "../../src/assests/images/img.jpg";
+import landscapeIcon from "../../src/assests/images/KOTTURPURAM PARK REDEVELOPMENT/2_2 - Photo.jpg";
 
 function FeaturedServices() {
   const services = [

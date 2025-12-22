@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Import images from src/assets/images folder
-import bannerImg from "../../src/assests/images/img.jpg";
+import bannerImg from "../../src/assests/images/aboutfirm.png";
 import team1Img from "../../src/assests/icons/Logo.png";
 import team2Img from "../../src/assests/icons/Logo.png";
 import team3Img from "../../src/assests/icons/Logo.png";
@@ -27,7 +27,7 @@ const TeamCard = ({ image, name, role }) => (
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="about-page slide-left">
 
       {/* 1️⃣ Intro Banner */}
       <section
