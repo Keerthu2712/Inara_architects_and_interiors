@@ -1,7 +1,11 @@
+
 {
+  
+
   "name": "inara_architects_and_interiors",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://inaraarchitects.com",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@testing-library/dom": "^10.4.1",
