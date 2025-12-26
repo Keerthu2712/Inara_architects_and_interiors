@@ -17,7 +17,7 @@ const AboutPreview = () => {
             At Inara Architects, we design spaces that radiate purpose, clarity, and emotion, leaving an impression that lingers beyond walls.
 
           </p>
-          <button onClick={() => (window.location.href = "/#/about")}>
+          <button onClick={() => (window.location.href = "/about")}>
             Read More
           </button>
         </div>
