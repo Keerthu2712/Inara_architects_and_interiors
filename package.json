@@ -5,28 +5,52 @@
 
 
 
-  "name": "inara_architects_and_interiors",
+
+
+"name": "inara_architects_and_interiors",
   
 
 
 
 
 
-  "version": "0.1.0",
+
+
+"version": "0.1.0",
   
 
 
 
 
 
-  "private": true,
+
+
+"private": true,
   
 
 
 
 
 
-  "homepage": "https://keerthu2712.github.io/Inara_architects_and_interiors",
+
+
+"homepage": "https://keerthu2712.github.io/Inara_architects_and_interiors/",
+  
+
+
+
+
+
+
+
+"dependencies": {
+  
+
+
+
+
+
+
 
   
 
@@ -34,610 +58,781 @@
 
 
 
-  "dependencies": {
+
+
+"@fortawesome/fontawesome-free": "^7.1.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@fortawesome/fontawesome-free": "^7.1.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@testing-library/dom": "^10.4.1",
+"@testing-library/dom": "^10.4.1",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@testing-library/jest-dom": "^6.9.1",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@testing-library/react": "^16.3.0",
+"@testing-library/jest-dom": "^6.9.1",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@testing-library/user-event": "^13.5.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "framer-motion": "^12.23.24",
+"@testing-library/react": "^16.3.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "gh-pages": "^6.3.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react": "^19.2.0",
+"@testing-library/user-event": "^13.5.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react-confetti": "^6.4.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react-dom": "^19.2.0",
+"framer-motion": "^12.23.24",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react-icons": "^5.5.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react-router-dom": "^7.9.5",
+"react": "^19.2.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "react-scripts": "^5.0.1",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "web-vitals": "^2.1.4"
+"react-confetti": "^6.4.0",
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "scripts": {
+
+
+"react-dom": "^19.2.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "start": "react-scripts start",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "build": "react-scripts build",
+"react-icons": "^5.5.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "test": "react-scripts test",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "eject": "react-scripts eject",
+"react-router-dom": "^7.9.5",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "predeploy": "npm run build",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "deploy": "gh-pages -d build -b gh-pages"
+"react-scripts": "^5.0.1",
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "eslintConfig": {
+
+
+"web-vitals": "^2.1.4"
   
 
 
 
 
 
-    
 
 
-
-
-
-  "extends": [
+},
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "react-app",
+"scripts": {
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "react-app/jest"
   
 
 
 
 
 
-    
 
 
-
-
-
-  ]
+"start": "react-scripts start",
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "browserslist": {
+
+
+"build": "react-scripts build",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "production": [
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  ">0.2%",
+"test": "react-scripts test",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "not dead",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "not op_mini all"
+"eject": "react-scripts eject",
   
 
 
 
 
 
-    
 
 
-
-
-
-  ],
   
 
 
 
 
 
-    
 
 
-
-
-
-  "development": [
+"predeploy": "npm run build",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 chrome version",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 firefox version",
+"deploy": "gh-pages -d build -b gh-pages"
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 safari version"
+},
   
 
 
 
 
 
-    
 
 
-
-
-
-  ]
+"eslintConfig": {
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "devDependencies": {
+
+
+"extends": [
   
 
 
 
 
 
-    
 
 
-
-
-
-  "@tailwindcss/cli": "^4.1.17",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "autoprefixer": "^10.4.22",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "postcss": "^8.5.6",
+"react-app",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "tailwindcss": "^3.4.18"
   
 
 
 
 
 
-  }
+
+
+  
+
+
+
+
+
+
+
+"react-app/jest"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+]
+  
+
+
+
+
+
+
+
+},
+  
+
+
+
+
+
+
+
+"browserslist": {
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"production": [
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+">0.2%",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"not dead",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"not op_mini all"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+],
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"development": [
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 chrome version",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 firefox version",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 safari version"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+]
+  
+
+
+
+
+
+
+
+},
+  
+
+
+
+
+
+
+
+"devDependencies": {
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"@tailwindcss/cli": "^4.1.17",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"autoprefixer": "^10.4.22",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"gh-pages": "^6.3.0",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"postcss": "^8.5.6",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"tailwindcss": "^3.4.18"
+  
+
+
+
+
+
+
+
+}
 }
