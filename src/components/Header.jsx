@@ -14,7 +14,11 @@ function Header() {
         <Link to="/">
           <img src={logo} alt="Inara Architects & Interiors" />
         </Link>
-        <div className="company-name">INARA ARCHITECTS AND INTERIORS</div>
+        <div className="company-name">
+          <span className="company-main">INARA </span>
+          <span className="company-sub">ARCHITECTS AND INTERIORS</span>
+        </div>
+
       </div>
 
       

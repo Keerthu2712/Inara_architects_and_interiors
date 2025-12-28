@@ -8,6 +8,7 @@
 /* --- HEADER STYLES --- */
 /* --- HEADER BASE STYLES --- */
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,12 +21,22 @@
 }
 
 .header-logo img {
-  height: 60px;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .header-logo img:hover {
   transform: scale(1.05);
+}
+
+
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .company-name {
@@ -35,11 +46,8 @@
   margin: 10px 0 0 15px;
   letter-spacing: 2px;
   font-family: "Lemon Milk", sans-serif;
-}
-
-.header-logo {
-  display: flex;
-  align-items: center;
+  white-space: nowrap;
+  display: inline;
 }
 
 /* --- NAVIGATION --- */
@@ -84,14 +92,27 @@
 
 /* --- RESPONSIVE NAVIGATION --- */
 @media (max-width: 768px) {
+  .header-logo img {
+    width: 40px;      /* adjust to fit header */
+  }
+  
   .menu-icon {
     display: flex;
   }
 
+  .company-name .company-main {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .company-name .company-sub {
+    font-size: 11px;
+  }
+
   .header-nav {
     position: absolute;
-    top: 80px;
-    right: 0;
+    top: 100%;
+    left: 0;
     width: 100%;
     background-color: #8e725f;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -99,25 +120,70 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.3s ease;
+    z-index: 999;
   }
 
   .header-nav.active {
-    display: flex;
+    display: block;
   }
 
   .header-nav ul {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 20px 0;
     width: 100%;
+    list-style: none;
   }
 
   .header-nav a {
     font-size: 18px;
-    width: 100%;
+    width: auto;
     text-align: center;
+    white-space: nowrap;
     padding: 10px 0;
+    color: #fff;
   }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px 16px;
+  }
+
+  /* Logo & name */
+  .header-logo img {
+    width: 45px;
+  }
+
+  .company-name {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    margin-left: 10px;
+  }
+
+  .company-name .company-main {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .company-name .company-sub {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+  }
+
+  .header-nav ul {
+    gap: 18px;
+  }
+
+  .header-nav a {
+    font-size: 14px;
+    white-space: nowrap;      /* 🔥 prevent word breaking */
+  }
+
 }
 
 /* --- HAMBURGER ANIMATION --- */
