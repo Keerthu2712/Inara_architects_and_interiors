@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import aboutImg from "../../src/assests/images/aboutfirm.png";
 
 
@@ -17,9 +18,9 @@ const AboutPreview = () => {
             At Inara Architects, we design spaces that radiate purpose, clarity, and emotion, leaving an impression that lingers beyond walls.
 
           </p>
-          <button onClick={() => (window.location.href = "/about")}>
+          <Link to="/about" className="hero-button">
             Read More
-          </button>
+          </Link>
         </div>
       </div>
     </section>

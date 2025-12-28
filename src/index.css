@@ -2017,6 +2017,93 @@ a {
   }
 }
 
+/* ================================
+   GLOBAL RESET & RESPONSIVE FIX
+================================ */
+
+/* 1. Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Smooth scaling */
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+/* 3. Body global alignment */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+/* 4. Global image fix */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 5. Container (use everywhere) */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+/* 6. Flexible layouts */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* 7. Grid for cards / gallery */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* ================================
+   TABLET FIX
+================================ */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .flex {
+    justify-content: center;
+  }
+}
+
+/* ================================
+   MOBILE FIX
+================================ */
+@media (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
+
+
 
 
 
