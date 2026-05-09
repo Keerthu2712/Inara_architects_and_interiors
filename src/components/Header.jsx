@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../src/assests/icons/Logo.png"; // update path if needed
+import logo from "../../src/assests/icons/LOGO LANDSCAPE PNG.png"; // update path if needed
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
